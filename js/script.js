@@ -1,4 +1,4 @@
-function move(){
+  function move(){
 	let elem = document.querySelector('.bar')
 	let width = 0
 	let a = setInterval(frame,30)
@@ -51,7 +51,7 @@ function getRandomByRange(low, high) {
 function getRandom(){
 	var result = new Array(9);
 	var candidates = [0,1,2,3,4,5,6,7,8], count = 0;
-	while(count < 3) {
+	while(count < 1) {
 		let index = getRandomByRange(0, candidates.length-1);
 		result[candidates[index]] = true;
 
